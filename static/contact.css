@@ -1,0 +1,52 @@
+.header{
+    background: #000;
+}
+.header a, .fa{
+    color: #fff;
+}
+.contact img{
+    width: 644px;
+    height: 500px;
+    margin: 143px 0 0 22px;
+    z-index: 1;
+    border: 15px solid #fff;
+}
+.contact .box{
+    width: 600px;
+    height: 615px;
+    margin: 26px 0 0 621px;
+    background: #F08080;
+    border: none;
+}
+.contact .form{
+    width: 475px;
+    height: 385px;
+    background: antiquewhite;
+    margin: 129px 145px 0 0px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 1;
+    border: 15px solid #fff;
+    text-align: center;
+}
+.text-box{
+    border-bottom: 2px solid #000;
+}
+.contact .form h1, p, a, .text-box input{
+    color: #000;
+}
+.contact .form .fa{
+    color: #000;
+}
+.contact .form h1, p{
+    margin: 25px 0;
+}
+.contact .form a{
+    float: right;
+    margin-right: 45px;
+}
+.contact .form a:hover{
+    color: #F08080;
+    text-decoration: underline;
+}

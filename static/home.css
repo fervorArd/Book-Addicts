@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+.header{
+	width: 100%;
+	height: 70px;
+}
+.sub-header{
+	width: 1200px;
+	height: 70px;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+}
+/*Logo*/
+.logo{
+	font-size: 35px;
+    position: absolute;
+    top: 19px;
+    font-family: 'Lobster';
+}
+/*Right menu*/
+.sub-header .right-menu{
+	float: right;
+    margin: 0 150px;
+    position: absolute;
+    right: 170px;
+    top: 30px;
+}
+.right-menu ul li{
+	float: left;
+	margin: 2px 18px;
+	min-width: 100px;
+	text-align: center;
+}
+.right-menu ul li a{
+	line-height: 18px;
+	font-family: 'Roboto Condensed';
+}
+.right-menu ul li a:hover, .login a:hover{
+	color: #F08080;
+}
+.social-media-links ul li:nth-child(1) i:hover{
+	color: #3b5999;
+}
+.social-media-links ul li:nth-child(2) i:hover{
+	color: #55acee;
+}
+.social-media-links ul li:nth-child(3) i:hover{
+	color: #dd2a7b;
+}
+/*Login*/
+.login{
+	position: absolute;
+	right: 210px;
+	padding: 2px 20px;
+    top: 24px;
+    font-size: 19px;
+    font-family: 'Roboto';
+}
+/*Social media links*/
+.social-media-links{
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+}
+.social-media-links ul li{
+	float: left;
+    margin: 2px 16px;
+    font-size: 24px;
+}
+img{
+	position: absolute;
+	top: 0px;
+	height: 700px;
+	width: 100%;
+}
+/*headline*/
+.headline{
+	position: absolute;
+	left: 38px;
+    top: 200px;
+    width: 560px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed';
+    background: radial-gradient(black, transparent);
+    padding: 20px;
+}
+/*Button*/
+.button{
+	border: none;
+	background: #000;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	cursor: pointer;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	top: 305px;
+	left: 40px;
+    padding: 12px 20px;
+    font-family: sans-serif;
+}
+.btn{
+	color: #fff;
+}
+.btn:hover{
+	color: #000;
+}
+.button::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #F08080;
+	width: 3%;
+	height: 100%;
+	z-index: -1;
+	transition: 0.4s;
+}
+.button:hover::before{
+	width: 100%;
+}
